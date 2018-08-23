@@ -6,9 +6,9 @@
 *.ipynb_checkpoints/
 
 # Project folders
-#data/
-#logs/
-#checkpoints/
+data/
+logs/
+checkpoints/
 
 
 # Byte-compiled / optimized / DLL files
