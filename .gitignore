@@ -1,3 +1,16 @@
+# Files
+*.pyc
+
+# Folders
+.idea/
+*.ipynb_checkpoints/
+
+# Project folders
+#data/
+#logs/
+#checkpoints/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

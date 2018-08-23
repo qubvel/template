@@ -1,0 +1,8 @@
+project_name: template
+
+docker_image_name: template_image
+docker_container_name: template_container
+
+jupyter_port: 8888
+tensorboard_port: 6006
+
