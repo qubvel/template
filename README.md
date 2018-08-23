@@ -1,6 +1,6 @@
 ## Template
 
-#### Modify config.  
+#### 0. Modify configuration file.  
 config.yaml file:
 ```yaml
 project_name: template
@@ -17,7 +17,7 @@ tensorboard_port: 6006
 $ ./docker_build.sh
 ```
 
-#### 2. Launch dev container with notebook server.
+#### 2. Launch container with notebook server.
 ```bash
-$ ./docker_run_dev.sh
+$ ./docker_run.sh
 ```
