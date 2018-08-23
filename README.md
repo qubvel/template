@@ -1,5 +1,9 @@
 ## Template
 
+## Requierments  
+1) CUDA 9.0
+2) nvidia-docker 18.06.0-ce
+
 #### 0. Modify configuration file.  
 config.yaml file:
 ```yaml
