@@ -10,6 +10,7 @@ nvidia-docker run -d \
     -p $config_jupyter_port:8888 \
     -p $config_tensorboard_port:6006 \
     --name $config_docker_container_name \
+    --ipc=host \
     -v $(pwd):/home/user/project/ \
     -e "UID=$(id -u)" \
     -e "GID=$(id -g)" \
