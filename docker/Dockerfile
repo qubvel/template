@@ -22,14 +22,15 @@ RUN curl --silent -O https://repo.continuum.io/archive/Anaconda3-$LATEST_CONDA-L
 
 # tensorflow and keras
 RUN conda install -y \
-    tensorflow-gpu==1.7.0 \
-    keras==2.1.5
+    tensorflow-gpu==1.9.0 \
+    keras==2.2.4
 
 # opencv
 RUN conda install -c conda-forge opencv -yy
 
 # opencv
 RUN conda install -c conda-forge opencv -yy
+
 # install LibGL for opencv
 RUN sudo apt install libgl1-mesa-glx -yy
 
@@ -39,7 +40,7 @@ RUN pip install \
     h5py \
     kaggle \
     graphviz \
-    albumentations \
+    albumentations==0.2.3 \
     pydot==1.2.3
 
 
